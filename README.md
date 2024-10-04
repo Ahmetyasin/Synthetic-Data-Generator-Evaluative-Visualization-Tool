@@ -8,14 +8,17 @@ This tool is a Streamlit-based application designed to generate and visualize sy
 
 ## Installation
 To use this tool, clone this repository and install the required dependencies as the following:
-
+```
 git clone https://github.com/anonymsynthetic/SDGEV.git
-
+```
+```
 cd SDGEV
-
+```
+```
 pip install -r requirements.txt
-
+```
 ## Usage
 In order to use this tool, use the following:
-
+```
 streamlit run src/main.py
+```
