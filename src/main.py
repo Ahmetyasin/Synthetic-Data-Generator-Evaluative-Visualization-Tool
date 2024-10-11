@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 from visualization import visualize_distributions
 from data_generation import iterative_synthetic_data_generation, generate_synthetic_data
-from utils import StreamlitConsole, extract_last_epoch_losses
+from utils import StreamlitConsole, extract_last_epoch_losses, calculate_kl_divergence
+from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+import matplotlib.pyplot as plt
 
 # Streamlit app starts here
 st.title('Synthetic Data Generator Evaluative Visualization Tool')
