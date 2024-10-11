@@ -1,24 +1,26 @@
-# Synthetic Data Generator Evaluative Visualization Tool
+# **Synthetic Data Generator Evaluative Visualization Tool (SDGEV)**
 
-## Description
-The paper is here: https://github.com/Ahmetyasin/Synthetic-Data-Generator-Evaluative-Visualization-Tool/blob/main/docs/Paper.pdf
+## **Overview**
 
-## Description
-This tool is a Streamlit-based application designed to generate and visualize synthetic data. It's particularly useful for understanding and analyzing the quality of synthetic data in comparison to original datasets.
+The **Synthetic Data Generator Evaluative Visualization Tool** uses **Generative Adversarial Networks (GANs)** to create and evaluate synthetic data, crucial for privacy preservation and data balance in machine learning. This tool provides **real-time visualization** and **metrics** to give instant feedback on synthetic data quality.
 
-## Installation
-To use this tool, clone this repository and install the required dependencies as the following:
-```
-git clone https://github.com/anonymsynthetic/SDGEV.git
-```
-```
-cd ./SDGEV
-```
-```
-pip install -r requirements.txt
-```
-## Usage
-In order to use this tool, use the following:
-```
-streamlit run src/main.py
-```
+Key features:
+- **Iterative, user-guided generation** to minimize computational load, especially for large datasets.
+- **Customizable parameters** such as learning rate, batch size, and more, to fine-tune the generation process.
+- **Real-time metrics** like **losses** and **KL divergences** displayed on the left, allowing you to assess data quality at each iteration.
+- **Dynamic visualizations** that show the proximity of synthetic data to original data, helping users decide when to stop the generation process.
+
+## **How to Run Locally**
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/anonymsynthetic/SDGEV.git
+   cd ./Synthetic-Data-Generator-Evaluative-Visualization-Tool
+    ```
+2. **Create and activate a virtual environment**:
+
+[![Watch the video](https://github.com/Ahmetyasin/Synthetic-Data-Generator-Evaluative-Visualization-Tool/blob/main/img/SDGEV_cover.png)](https://github.com/Ahmetyasin/Synthetic-Data-Generator-Evaluative-Visualization-Tool/blob/main/img/SDGEV.mp4)
+
+
+
