@@ -12,7 +12,7 @@ To use this tool, clone this repository and install the required dependencies as
 git clone https://github.com/anonymsynthetic/SDGEV.git
 ```
 ```
-cd SDGEV
+cd ./SDGEV
 ```
 ```
 pip install -r requirements.txt
