@@ -21,7 +21,7 @@ Key features:
 2. **Create and activate a virtual environment**:
 
 
-![Tool Demo](https://github.com/Ahmetyasin/Synthetic-Data-Generator-Evaluative-Visualization-Tool/blob/main/img/SDGEV.gif)
+![Tool Demo](https://github.com/Ahmetyasin/Synthetic-Data-Generator-Evaluative-Visualization-Tool/blob/main/img/SDGEV_vid.gif)
   
 
 
